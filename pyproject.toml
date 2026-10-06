@@ -3,7 +3,7 @@ name = "miniforecast"
 version = "0.1.0"
 description = "Litet exempelprojekt för CI-felsökning"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = ["numpy"]
 
 [dependency-groups]
 dev = ["pytest>=8", "ruff>=0.9"]
